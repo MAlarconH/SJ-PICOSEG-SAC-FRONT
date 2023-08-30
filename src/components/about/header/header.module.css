@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 44px;
+    align-items: flex-start;
+    background-color: red;
+}
+
+.nav {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 44px;
+    background-color: blue;
+}
+
+.containerItem {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
