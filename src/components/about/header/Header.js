@@ -1,20 +1,29 @@
-import { EmailIcon, FacebookIcon, InstagramIcon, PhoneIcon, WhatsAppIcon } from '@/components/icons/SocialIcons'
-import styles from './header.module.css'
+import React from 'react';
+import {
+  EmailIcon,
+  FacebookIcon,
+  InstagramIcon,
+  PhoneIcon,
+  WhatsAppIcon,
+} from '@/components/icons/SocialIcons';
+import styles from './header.module.css';
+
+const HeaderItem = ({ icon, text }) => (
+  <div className={styles.item}>
+    {icon}
+    <h1>{text}</h1>
+  </div>
+);
+
 const Header = () => {
   return (
-    <div class={styles.header}>
-      <div class={styles.nav}>
-        <div class={styles.containerItem}>
-          <div class={styles.item}>
-            <PhoneIcon />
-            <h1>Teléfono: 999999999</h1>
-          </div>
-          <div class={styles.item}>
-            <EmailIcon />
-            <h1>Correo: ejemplo@gmail.com</h1>
-          </div>
+    <div className={styles.header}>
+      <div className={styles.nav}>
+        <div className={styles.containerItem}>
+          <HeaderItem icon={<PhoneIcon />} text="Teléfono: 999999999" />
+          <HeaderItem icon={<EmailIcon />} text="Correo: ejemplo@gmail.com" />
         </div>
-        <div class={styles.containerItem}>
+        <div className={styles.containerItem}>
           <WhatsAppIcon />
           <InstagramIcon />
           <FacebookIcon />
@@ -22,6 +31,6 @@ const Header = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Header
+export default Header;

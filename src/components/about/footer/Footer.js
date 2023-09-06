@@ -1,50 +1,54 @@
-import Logo from "@/components/Logo"
-import styles from "./footer.module.css"
+import Logo from "@/components/Logo";
+import styles from "./footer.module.css";
+
+const Section = ({ title, children }) => {
+  return (
+    <div className={styles.section}>
+      {title && <h2>{title}</h2>}
+      {children}
+    </div>
+  );
+};
 
 const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <div className={styles.footerSections}>
-        <div className={styles.section}>
-          <div className={styles.sectionItem}>
-            <Logo />
+        <Section>
+          <div>
+            <Logo scale={2} />
           </div>
-          <div className={styles.sectionItem}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              aspernatur quasi deserunt excepturi molestiae praesentium labore
-              illum placeat vero, odit fugiat tempore at magnam sed! Eius,
-              possimus. Cum, ut facere.
-            </p>
-          </div>
-        </div>
-        <div className={styles.section}>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            aspernatur quasi deserunt excepturi molestiae praesentium labore
+            illum placeat vero, odit fugiat tempore at magnam sed! Eius,
+            possimus. Cum, ut facere.
+          </p>
+        </Section>
+        <Section title="Menu">
           <ul>
-            <label> Menú</label>
             <li>Item</li>
             <li>Item</li>
             <li>Item</li>
             <li>Item</li>
           </ul>
-        </div>
-        <div className={styles.section}>
+        </Section>
+        <Section title="Menu">
           <ul>
-            <label> Menú</label>
             <li>Item</li>
             <li>Item</li>
             <li>Item</li>
             <li>Item</li>
           </ul>
-        </div>
-        <div className={styles.section}>
+        </Section>
+        <Section title="Menu">
           <ul>
-            <label> Menú</label>
             <li>Item</li>
             <li>Item</li>
             <li>Item</li>
             <li>Item</li>
           </ul>
-        </div>
+        </Section>
       </div>
       <div className={styles.footerDow}>
         <h1>alao asds</h1>
@@ -57,6 +61,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

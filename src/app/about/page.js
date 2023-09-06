@@ -6,6 +6,7 @@ const About = () => {
     return <div style={{ 
         display: "flex",
         flexDirection: "column",
+        minWidth: "15rem"
     }}>
     <Header/>
     <Menu/>

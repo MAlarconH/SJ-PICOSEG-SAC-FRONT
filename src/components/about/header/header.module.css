@@ -1,3 +1,5 @@
+/* header.module.css */
+
 .header {
     padding: 16px;
     display: flex;
@@ -5,40 +7,41 @@
     align-items: flex-start;
     background-color: #101685;
     gap: 16px;
-}
-
-.nav {
+  }
+  
+  .nav {
     display: flex;
     min-width: 100%;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.containerItem {
+  }
+  
+  .containerItem {
     gap: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-@media (max-width: 660px) {
+  }
+  
+  @media (max-width: 660px) {
     .nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: space-around;
-        gap: 16px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
     }
-
+  
     .containerItem:nth-child(1) {
-        flex-direction: column;
-        justify-content: center;
-        align-items: space-around;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-}
-
-.item {
+  }
+  
+  .item {
     display: flex;
     align-items: center;
     gap: 7px;
-}
+  }
+  
