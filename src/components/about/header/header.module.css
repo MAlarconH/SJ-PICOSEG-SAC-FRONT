@@ -1,9 +1,10 @@
 .header {
+    padding: 16px;
     display: flex;
     flex-wrap: wrap;
-    height: 44px;
     align-items: flex-start;
-    background-color: red;
+    background-color: #101685;
+    gap: 16px;
 }
 
 .nav {
@@ -11,8 +12,7 @@
     min-width: 100%;
     justify-content: space-around;
     align-items: center;
-    height: 44px;
-    background-color: blue;
+    flex-wrap: wrap;
 }
 
 .containerItem {
@@ -20,6 +20,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 660px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-around;
+        gap: 16px;
+    }
+
+    .containerItem:nth-child(1) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-around;
+    }
 }
 
 .item {

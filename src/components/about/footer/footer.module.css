@@ -1,24 +1,19 @@
 .footerContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 452.98px;
-    flex-wrap: wrap;
-    background-color: rebeccapurple;
-}
-.footerSections {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    flex-wrap: wrap;
-    background-color: aqua;
-    height: 252px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
-.section:nth-child(2) {
+
+.footerSections {
+    min-height: 252px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
     flex-wrap: wrap;
-    background-color: red;
+    place-items: center;
+    background-color: rebeccapurple;
+}
+
+.section {
     height: 252px;
 }
 
