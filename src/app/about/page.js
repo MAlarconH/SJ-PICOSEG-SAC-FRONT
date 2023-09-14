@@ -6,7 +6,8 @@ const About = () => {
     return <div style={{ 
         display: "flex",
         flexDirection: "column",
-        minWidth: "15rem"
+        minWidth: "15rem",
+        backgroundColor: "white",
     }}>
     <Header/>
     <Menu/>
