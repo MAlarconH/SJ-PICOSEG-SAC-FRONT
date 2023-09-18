@@ -42,11 +42,8 @@ const GridItem = ({ img }) => {
       </p>
     </div>
   ) : (
-    <div style={{
-      padding: "4rem",
-    }}>
-    <Image src={imgFontGrid} style={{objectFit: "cover"}} />
-
+    <div className={styles.imgGrid}>
+      <Image src={imgFontGrid} style={{objectFit: "cover"}} />
     </div>
   );
 };
@@ -127,7 +124,24 @@ const Menu = () => {
             concreto premezclado en el Perú.
           </h1>
         </div>
-      </div>    
+      </div>  
+      <div>
+      <div className={styles.grid}>
+        <GridItem />
+        <GridItem img={true}/>
+      </div>
+      <div className={styles.grid}>
+        <GridItem img={true}/>
+        <GridItem className={{
+          order: "-1",
+        }}/>
+      </div>
+      <div className={styles.grid}>
+        <GridItem />
+        <GridItem img={true}/>
+      </div>
+      </div>  
+     
     </div>
   );
 };

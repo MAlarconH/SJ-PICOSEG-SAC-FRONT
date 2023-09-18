@@ -41,7 +41,7 @@ const Footer = () => {
           <div>
             <Logo scale={2} />
           </div>
-          <p style={{...commonTextStyle, textAlign: "center"}}>
+          <p style={{ ...commonTextStyle, textAlign: "center" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             aspernatur quasi deserunt excepturi molestiae praesentium labore
             illum placeat vero, odit fugiat tempore at magnam sed! Eius,
@@ -50,6 +50,17 @@ const Footer = () => {
         </div>
 
         <div className={styles.footerSections}>
+          <div className={styles.section}>
+            <div>
+              <Logo scale={2} />
+            </div>
+            <p style={{ ...commonTextStyle, textAlign: "center" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              aspernatur quasi deserunt excepturi molestiae praesentium labore
+              illum placeat vero, odit fugiat tempore at magnam sed! Eius,
+              possimus. Cum, ut facere.
+            </p>
+          </div>
           {[1, 2, 3].map((item) => (
             <Section key={item} title="Menu">
               <ul>
