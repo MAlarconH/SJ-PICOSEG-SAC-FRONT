@@ -1,0 +1,6 @@
+.concretoWorking {
+  background-image: url('../../public/assets/concretos/ConcretoWorking.png');
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+}
