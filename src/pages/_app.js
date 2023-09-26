@@ -1,11 +1,11 @@
-// _app.js
+import "@/styles/global.css";
+import StyleFonts from "@/components/StyleFonts";
 
-import './global.css'; // Import the global CSS file
-import { useEffect } from 'react';
-
-function MyApp({ Component, pageProps }) {
-  // Your code here
-  return <Component {...pageProps} />;
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <StyleFonts />
+      <Component {...pageProps} />
+    </>
+  );
 }
-
-export default MyApp;
