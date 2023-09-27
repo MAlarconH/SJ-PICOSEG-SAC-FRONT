@@ -38,19 +38,19 @@
   }
   
   
-  .aboutUsContainer {
+  .contactContainer {
     position: relative;
     display: flex;
     min-height: 185px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url("/public/images/section.png");
+    background-image: url("/images/section.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  .aboutUsFilter {
+  .contactFilter {
     z-index: 0;
     position: absolute;
     top: 0;
@@ -61,7 +61,7 @@
     background: rgba(17, 17, 17, 0.71);
   }
   
-  .aboutUs {
+  .contact {
     z-index: 1;
     display: flex;
     flex-wrap: wrap;

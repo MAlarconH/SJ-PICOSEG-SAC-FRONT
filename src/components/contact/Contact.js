@@ -6,7 +6,7 @@ import styles from "./contact.module.css";
 import Map from '@/components/Map';
 
 
-const DEFAULT_CENTER = [-11.938837909055202, -76.69711947815475]
+const DEFAULT_CENTER = [-12.216825652649737, -76.96858882135183]
 
 const Contact = () => {
   return(
@@ -14,9 +14,9 @@ const Contact = () => {
         <div className='container' style={{maxWidth:"60vw"}}>
           <div className='container mx-auto'> 
               
-            <div className={styles.aboutUsContainer}>
-            <div className={styles.aboutUsFilter}></div>
-            <div className={styles.aboutUs}>
+            <div className={styles.contactContainer}>
+            <div className={styles.contactFilter}></div>
+            <div className={styles.contact}>
               <h1
                 style={{
                   color: "#FFF",
@@ -33,33 +33,47 @@ const Contact = () => {
         </div>
 
 
-        <div className=' container grid grid-cols-3  mx-auto text-center'>
+        <div className=' container grid grid-cols-3  mx-auto text-center' 
+              style={{
+                  color: "#FFF",
+                  textAlign: "center",
+                  fontFamily: "Bebas Neue",
+                  fontSize: "15px",
+                  fontStyle: "normal",
+                }}>
             <div className='item'>
-                <img src="/images/img-call.png"></img>
-                <h1>LLÁMANOS</h1>
+                <img src="/images/img-call.png"/>
+                <p>LLÁMANOS</p>
             </div>
             <div className='item'>
                 <img src="/images/img-office.png" alt="" />
-                <h1>OFICINA PRINCIPAL</h1>
+                <p>OFICINA PRINCIPAL</p>
             </div>
             <div className='item'>
                 <img src="/images/img-online.png" alt="" />
-                <h1>ONLINE</h1>
+                <p>ONLINE</p>
             </div>
         </div>
-        <div className=' container grid grid-cols-3  mx-auto text-center'>
+        <div className=' container grid grid-cols-3  mx-auto text-center'
+            style={{
+              color: "#FFF",
+              textAlign: "center",
+              fontFamily: "Bebas Neue",
+              fontSize: "15px",
+              fontStyle: "normal",
+            }}>
             <div className='item'>
                 <img src="/images/img-telephone.png" alt="" />
-                <h1>941 074 165/111111</h1>
+                <h2>941 074 165</h2>
             </div>
             <div className='item'>
                 <img src="/images/img-map.png" alt="" />
-                <h1>AV. CONCRETOS</h1>
+                <p>AV. CONCRETOS</p>
             </div>
             <div className='item'>
                 <img src="/images/img-calendar.png" alt="" />
-                <h1>LUNES - VIERNES</h1>
-                <h2>js.picoseg@gmail.com</h2>
+                <p>LUNES - VIERNES</p>
+                <p>js.picoseg@gmail.com</p>
             </div>
         </div>
 
@@ -74,7 +88,7 @@ const Contact = () => {
                 />
                 <Marker position={DEFAULT_CENTER}>
                   <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
+                    PICOSEG <br />
                   </Popup>
                 </Marker>
               </>
