@@ -4,7 +4,12 @@ import Link from 'next/link'
 function Navigation() {
   return (
     
-        <div className='container mx-auto'>
+        <div className='container mx-auto' style={{
+          color: "#FFF",
+                  textAlign: "center",
+                  fontFamily: "Bebas Neue",
+                  fontSize: "22px",
+                  fontStyle: "normal"}}>
           <ul className='flex justify-between'>
             <li>
               <Link href='/'>Inicio</Link>

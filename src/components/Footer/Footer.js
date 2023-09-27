@@ -42,10 +42,7 @@ const Footer = () => {
             <Logo scale={2} />
           </div>
           <p style={{ ...commonTextStyle, textAlign: "center" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            aspernatur quasi deserunt excepturi molestiae praesentium labore
-            illum placeat vero, odit fugiat tempore at magnam sed! Eius,
-            possimus. Cum, ut facere.
+          En PICOSEG, estamos comprometidos con la excelencia en la industria de la construcción. Como empresa líder en Lima, Perú, nos enorgullece ofrecer servicios de bombeo de concreto premezclado y la venta de concreto de diseño personalizado para una amplia gama de proyectos y necesidades.
           </p>
         </div>
 
@@ -55,10 +52,7 @@ const Footer = () => {
               <Logo scale={2} />
             </div>
             <p style={{ ...commonTextStyle, textAlign: "center" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              aspernatur quasi deserunt excepturi molestiae praesentium labore
-              illum placeat vero, odit fugiat tempore at magnam sed! Eius,
-              possimus. Cum, ut facere.
+            En PICOSEG, estamos comprometidos con la excelencia en la industria de la construcción. Como empresa líder en Lima, Perú, nos enorgullece ofrecer servicios de bombeo de concreto premezclado y la venta de concreto de diseño personalizado para una amplia gama de proyectos y necesidades.
             </p>
           </div>
           {[1, 2, 3].map((item) => (

@@ -1,7 +1,7 @@
-
+import Logo from "@/components/Logo";
 import React from "react";
 
-import styles from "./contact.module.css";
+import styles from "@/components/contact/contact.module.css";
 
 import Map from '@/components/Map';
 
@@ -75,6 +75,47 @@ const Contact = () => {
                 <p>LUNES - VIERNES</p>
                 <p>js.picoseg@gmail.com</p>
             </div>
+        </div>
+
+        
+
+        <div className={styles.formulario}>
+          <div className={styles.titulo}>
+            <Logo scale={2} />
+            <h3>SOLICITUD DE COTIZACIÓN </h3>
+          </div>
+          
+          <p>Puede hacer usos de los distintos medios de contacto que ponemos a su disposición. Las consultas recibidas a travez del
+formulario de contacto son respondidos dentro de los minutos.</p>
+          <br></br>
+          <form className={styles.form}>
+
+            {/* nombre */}
+            <label htmlfor="nombre" style={{display:"block"}}>
+              Nombre
+            </label>
+            <input type="text"/>
+
+            {/* correo */}
+            <label htmlfor="correo" style={{display:"block"}}>
+              Correo
+            </label>
+            <input type="email"/>
+
+            {/* telefono */}
+            <label htmlfor="phone" style={{display:"block"}}>
+              Telefono
+            </label>
+            <input type="number"/>
+
+            {/* consulta */}
+            <label htmlfor="consulta" style={{display:"block"}}>
+              Consulta
+            </label>
+            <input type="text"/>
+
+
+          </form>
         </div>
 
 
