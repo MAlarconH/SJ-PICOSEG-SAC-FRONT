@@ -3,13 +3,14 @@
 import Image from 'next/image';
 import React from 'react';
 import Map from '@/components/Map/Map';
+import { GeneralLayout } from '@/layouts';
 
 const DEFAULT_CENTER = [-11.938837909055202, -76.69711947815475]
 
 
 function ContactPage() {
   return (
-    <html>
+    <GeneralLayout>
     <div style={{display:"flex",justifyContent:"center"}}>
     <div className='container' style={{maxWidth:"60vw"}}>
         <div className='container mx-auto'> 
@@ -66,11 +67,9 @@ function ContactPage() {
             )}
           </Map>
         </div>
-
-
     </div>
     </div>
-    </html>
+    </GeneralLayout>
   )
 }
 

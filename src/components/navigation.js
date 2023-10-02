@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 
-function Navigation() {
+function Navigation({ navigateTo }) {
   return (
     
         <div className='container mx-auto' style={{
@@ -12,16 +12,10 @@ function Navigation() {
                   fontStyle: "normal"}}>
           <ul className='flex justify-between'>
             <li>
-              <Link href='/'>Inicio</Link>
+              <button onClick={() => navigateTo('/')}>Inicio</button>
             </li>
             <li>
-              <Link href="/about">Nosotros</Link>
-            </li>
-            <li>
-              <Link href="/services">Concretos</Link>
-            </li>
-            <li>
-              <Link href="../contacto">Contacto</Link>
+              <button onClick={() => navigateTo('/about')}>Nosotros</button>
             </li>
           </ul>
         </div>
