@@ -1,3 +1,4 @@
+// @react-server/client
 import Link from 'next/link'
 
 

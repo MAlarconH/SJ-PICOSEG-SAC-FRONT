@@ -1,3 +1,4 @@
+// @react-server/client
 import React from 'react';
 
 import Layout from '@/layouts';

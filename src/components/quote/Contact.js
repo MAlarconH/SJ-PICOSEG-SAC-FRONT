@@ -1,13 +1,14 @@
+// @react-server/client
 import React from "react";
 import Logo from "@/components/Logo";
 
-
+import Map from '@/components/Map';
 import styles from "./contact.module.css";
 
 
 
 
-
+const DEFAULT_CENTER = [-12.216833, -76.968462]
 
 const Contact = () => {
   return(
@@ -121,6 +122,21 @@ formulario de contacto son respondidos dentro de los minutos.</p>
 
 
         <div>
+        <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
+            {({ TileLayer, Marker, Popup }) => (
+              <>
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+                />
+                <Marker position={DEFAULT_CENTER}>
+                  <Popup>
+                    A pretty CSS3 popup. <br /> Easily customizable.
+                  </Popup>
+                </Marker>
+              </>
+            )}
+          </Map>
         
         </div>
 
