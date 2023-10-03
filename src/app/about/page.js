@@ -1,6 +1,7 @@
-import Footer from "@/components/about/footer/Footer"
-import Header from "@/components/about/header/Header"
-import Menu from "@/components/about/menu/Menu"
+import React from "react";
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Header/Header";
+import Menu from "@/components/about/menu/Menu";
 
 const About = () => {
     return <div style={{ 

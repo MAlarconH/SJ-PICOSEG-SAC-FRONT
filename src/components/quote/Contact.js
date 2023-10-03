@@ -1,12 +1,13 @@
-import Logo from "@/components/Logo";
 import React from "react";
-
-import styles from "@/components/contact/contact.module.css";
-
-import Map from '@/components/Map';
+import Logo from "@/components/Logo";
 
 
-const DEFAULT_CENTER = [-12.216825652649737, -76.96858882135183]
+import styles from "./contact.module.css";
+
+
+
+
+
 
 const Contact = () => {
   return(
@@ -85,7 +86,7 @@ const Contact = () => {
             <h3>SOLICITUD DE COTIZACIÓN </h3>
           </div>
           
-          <p>Puede hacer usos de los distintos medios de contacto que ponemos a su disposición. Las consultas recibidas a travez del
+          <p>Puede hacer usos de los distintos medios de contacto que ponemos a su disposición. Las consultas recibidas a traves del
 formulario de contacto son respondidos dentro de los minutos.</p>
           <br></br>
           <form className={styles.form}>
@@ -120,21 +121,7 @@ formulario de contacto son respondidos dentro de los minutos.</p>
 
 
         <div>
-        <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
-            {({ TileLayer, Marker, Popup }) => (
-              <>
-                <TileLayer
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                  attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-                />
-                <Marker position={DEFAULT_CENTER}>
-                  <Popup>
-                    PICOSEG <br />
-                  </Popup>
-                </Marker>
-              </>
-            )}
-          </Map>
+        
         </div>
 
 

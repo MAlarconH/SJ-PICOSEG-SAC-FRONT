@@ -15,7 +15,14 @@ function Navigation({ navigateTo }) {
               <button onClick={() => navigateTo('/')}>Inicio</button>
             </li>
             <li>
+              <button onClick={() => navigateTo('/servic')}>Servicios</button>
+            </li>
+            <li>
               <button onClick={() => navigateTo('/about')}>Nosotros</button>
+            </li>
+
+            <li>
+              <button onClick={() => navigateTo('/contact')}>Contacto</button>
             </li>
           </ul>
         </div>

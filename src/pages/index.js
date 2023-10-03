@@ -1,8 +1,10 @@
+import React from 'react';
 
-import Contact from '@/components/contact/Contact'
-import Layout from '@/layouts'
-import Section from '@/components/Section'
-import GeneralLayout from '@/layouts/GeneralLayout'
+import Layout from '@/layouts';
+import Section from '@/components/Section';
+import GeneralLayout from '@/layouts/GeneralLayout';
+import Footer from '@/components/Footer/Footer';
+import Header from '@/components/Header/Header';
 
 
 
@@ -12,8 +14,13 @@ export default function Home() {
   
 
   return (
-    <GeneralLayout>
-    <h1>Home</h1>
-  </GeneralLayout>
-  )
-}
+    <div>
+      <Header/>
+        <GeneralLayout>
+          <h1>Home</h1>
+          
+        </GeneralLayout>
+      <Footer/>
+    </div>
+  );
+};

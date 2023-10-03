@@ -11,7 +11,7 @@ const GridItem = ({ img }) => {
   return !img ? (
     <div className={styles.gridItem}>
       <button className={styles.gridButton}>
-        <Button />
+        
       </button>
       <h1
         style={{
