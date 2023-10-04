@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 
 function Navigation({ navigateTo }) {
   return (
@@ -15,7 +13,16 @@ function Navigation({ navigateTo }) {
               <button onClick={() => navigateTo('/')}>Inicio</button>
             </li>
             <li>
-              <button onClick={() => navigateTo('/about')}>Nosotros</button>
+              <button onClick={() => navigateTo('/nosotros')}>Nosotros</button>
+            </li>
+            <li>
+              <button onClick={() => navigateTo('/concreto')}>Concreto</button>
+            </li>
+            <li>
+              <button onClick={() => navigateTo('/contacto')}>Contacto</button>
+            </li>
+            <li>
+              <button onClick={() => navigateTo('/serv')}>Servicios</button>
             </li>
           </ul>
         </div>

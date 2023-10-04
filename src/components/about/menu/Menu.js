@@ -43,60 +43,14 @@ const GridItem = ({ img }) => {
     </div>
   ) : (
     <div className={styles.imgGrid}>
-      <Image src={imgFontGrid} style={{objectFit: "cover"}} />
+      <Image src={imgFontGrid} style={{ objectFit: "cover" }} />
     </div>
   );
 };
 
 const Menu = () => {
   return (
-    <div style={{ padding: "5px" }}>
-      <div className={styles.menu}>
-        <div className={styles.containerMenuNav}>
-          <div className={styles.logo}>
-            <Logo scale={2} />
-          </div>
-          <div className={styles.itemContainer}>
-            <p
-              style={{
-                color: "#101685",
-                fontFamily: "Bebas Neue",
-                fontSize: "20px",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight: "54px",
-              }}
-            >
-              Hello
-            </p>
-            <p
-              style={{
-                color: "#101685",
-                fontFamily: "Bebas Neue",
-                fontSize: "20px",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight: "54px",
-              }}
-            >
-              Hello
-            </p>
-            <p
-              style={{
-                color: "#101685",
-                fontFamily: "Bebas Neue",
-                fontSize: "20px",
-                fontStyle: "normal",
-                fontWeight: "400",
-                lineHeight: "54px",
-              }}
-            >
-              Hello
-            </p>
-          </div>
-        </div>
-      </div>
-
+    <>
       <div className={styles.aboutUsContainer}>
         <div className={styles.aboutUsFilter}></div>
         <div className={styles.aboutUs}>
@@ -124,25 +78,26 @@ const Menu = () => {
             concreto premezclado en el Perú.
           </h1>
         </div>
-      </div>  
+      </div>
       <div>
-      <div className={styles.grid}>
-        <GridItem />
-        <GridItem img={true}/>
+        <div className={styles.grid}>
+          <GridItem />
+          <GridItem img={true} />
+        </div>
+        <div className={styles.grid}>
+          <GridItem img={true} />
+          <GridItem
+            className={{
+              order: "-1",
+            }}
+          />
+        </div>
+        <div className={styles.grid}>
+          <GridItem />
+          <GridItem img={true} />
+        </div>
       </div>
-      <div className={styles.grid}>
-        <GridItem img={true}/>
-        <GridItem className={{
-          order: "-1",
-        }}/>
-      </div>
-      <div className={styles.grid}>
-        <GridItem />
-        <GridItem img={true}/>
-      </div>
-      </div>  
-     
-    </div>
+    </>
   );
 };
 
