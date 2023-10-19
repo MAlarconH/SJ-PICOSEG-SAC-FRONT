@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import Map from '@/components/Map/Map';
 import { GeneralLayout } from '@/layouts';
+import styles from "@/components/contact/contact.module.css";
 
 const DEFAULT_CENTER = [-11.938837909055202, -76.69711947815475]
 
@@ -13,12 +14,6 @@ function ContactPage() {
     <GeneralLayout>
     <div style={{display:"flex",justifyContent:"center"}}>
     <div className='container' style={{maxWidth:"60vw"}}>
-        <div className='container mx-auto'> 
-            
-           <h1 className="text-primary text-center font-sans font-family:-apple-system ">CONTACTO</h1>
-        </div>
-
-
         <div className=' container grid grid-cols-3  mx-auto text-center'>
             <div className='item'>
                 <img src="/images/img-call.png"></img>

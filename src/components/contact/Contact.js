@@ -4,6 +4,7 @@ import React from "react";
 import styles from "@/components/contact/contact.module.css";
 
 import Map from '@/components/Map';
+import { imgCall, imgMap, imgOffice, imgOnline, imgTelephone } from "../../../public";
 
 
 const DEFAULT_CENTER = [-12.216825652649737, -76.96858882135183]
@@ -42,15 +43,15 @@ const Contact = () => {
                   fontStyle: "normal",
                 }}>
             <div className='item'>
-                <img src="/images/img-call.png"/>
+                <img src={imgCall}/>
                 <p>LLÁMANOS</p>
             </div>
             <div className='item'>
-                <img src="/images/img-office.png" alt="" />
+                <img src={imgOffice} alt="" />
                 <p>OFICINA PRINCIPAL</p>
             </div>
             <div className='item'>
-                <img src="/images/img-online.png" alt="" />
+                <img src={imgOnline} alt="" />
                 <p>ONLINE</p>
             </div>
         </div>
@@ -63,15 +64,15 @@ const Contact = () => {
               fontStyle: "normal",
             }}>
             <div className='item'>
-                <img src="/images/img-telephone.png" alt="" />
+                <img src={imgTelephone} alt="" />
                 <h2>941 074 165</h2>
             </div>
             <div className='item'>
-                <img src="/images/img-map.png" alt="" />
+                <img src={imgMap} alt="" />
                 <p>AV. CONCRETOS</p>
             </div>
             <div className='item'>
-                <img src="/images/img-calendar.png" alt="" />
+                <img src={imgMap} alt="" />
                 <p>LUNES - VIERNES</p>
                 <p>js.picoseg@gmail.com</p>
             </div>

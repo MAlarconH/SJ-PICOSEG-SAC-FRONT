@@ -1,15 +1,14 @@
 import React from "react";
-import ConcretoContainer from "@/containers/Concreto";
+import ConcretoContainer from "@/components/containers/Concreto";
 import BarHead from "@/components/BarHead";
 import TabsLogo from "@/components/TabsLogo";
+import { GeneralLayout } from "@/layouts";
 
 const ConcretoPage = () => {
   return (
-    <section>
-      <BarHead />
-      <TabsLogo />
+    <GeneralLayout>
       <ConcretoContainer />
-    </section>
+    </GeneralLayout>
   );
 };
 

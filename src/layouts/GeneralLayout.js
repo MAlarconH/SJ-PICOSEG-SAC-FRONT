@@ -1,10 +1,7 @@
-import Head from 'next/head';
 import Logo from '../components/Logo';
 import Header from '../components/Header/Header';
 import styles from './Layout.module.css';
 import Navigation from '../components/navigation';
-import Footer from '../components/Footer/Footer';
-import Contact from '../components/contact/Contact';
 import { useRouter } from 'next/router';
 
 /* const Layout =({
@@ -27,7 +24,7 @@ import { useRouter } from 'next/router';
     );
 }; */
 
-const GeneralLayout = ({ children }) => {
+export const GeneralLayout = ({ children }) => {
   const router = useRouter();
 
   const navigateTo = (route) => {
@@ -46,4 +43,3 @@ const GeneralLayout = ({ children }) => {
     );
   };
   
-export default GeneralLayout;

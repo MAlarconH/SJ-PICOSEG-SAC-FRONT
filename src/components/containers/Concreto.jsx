@@ -1,5 +1,5 @@
 import React from "react";
-import CardQuantity from "../components/Concreto/CardQuantity";
+import CardQuantity from "../Concreto/CardQuantity";
 import Button from "@/components/shared/Button";
 import styles from "./Concreto.module.css";
 

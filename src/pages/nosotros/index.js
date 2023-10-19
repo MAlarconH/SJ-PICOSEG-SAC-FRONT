@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer/Footer"
 import Menu from "@/components/about/menu/Menu"
-import GeneralLayout from "@/layouts/GeneralLayout"
+import { GeneralLayout } from "@/layouts"
 
 function AboutPage() {
   return (
