@@ -1,20 +1,42 @@
-import Logo from "@/components/Logo";
+// @react-server/client
 import React from "react";
-
-import styles from "@/components/contact/contact.module.css";
+import Logo from "@/components/Logo";
 
 import Map from '@/components/Map';
-import { imgCall, imgMap, imgOffice, imgOnline, imgTelephone } from "../../../public";
+import styles from "./contact.module.css";
+import GeneralLayout from "@/layouts/GeneralLayout";
+import {useState} from 'react';
 
 
-const DEFAULT_CENTER = [-12.216825652649737, -76.96858882135183]
+
+
+const DEFAULT_CENTER = [-12.216833, -76.968462]
 
 const Contact = () => {
+
+  const [message,setMessage]= useState('')
+  const handleSubmit = async(event) => {
+  event.preventDefault()
+  const data = new FormData(event.target)
+  const response = await fetch(event.target.action, {
+    method:'POST',
+    body: data,
+    headers: {
+    Accept: 'application/json'
+  } 
+})
+  const result = await response.json()
+  if(!response.ok) {
+    setMessage(result.errors.map(errors => errors.message).join(', '))
+    return false
+  }
+  setMessage('Se ha enviado tu correo satisfactoriamente')
+}
   return(
     <div style={{display:"flex",justifyContent:"center"}}>
-        <div className='container' style={{maxWidth:"60vw"}}>
+        <div className='container' >
           <div className='container mx-auto'> 
-              
+            
             <div className={styles.contactContainer}>
             <div className={styles.contactFilter}></div>
             <div className={styles.contact}>
@@ -23,7 +45,7 @@ const Contact = () => {
                   color: "#FFF",
                   textAlign: "center",
                   fontFamily: "Bebas Neue",
-                  fontSize: "35px",
+                  fontSize: "50px",
                   fontStyle: "normal",
                 }}
               >
@@ -36,85 +58,85 @@ const Contact = () => {
 
         <div className=' container grid grid-cols-3  mx-auto text-center' 
               style={{
+                  maxWidth:"60vw",
                   color: "#FFF",
                   textAlign: "center",
                   fontFamily: "Bebas Neue",
-                  fontSize: "15px",
+                  fontSize: "30px",
                   fontStyle: "normal",
                 }}>
             <div className='item'>
-                <img src={imgCall}/>
+                <img src="/images/img-call.png"/>
                 <p>LLÁMANOS</p>
             </div>
             <div className='item'>
-                <img src={imgOffice} alt="" />
+                <img src="/images/img-office.png" alt="" />
                 <p>OFICINA PRINCIPAL</p>
             </div>
             <div className='item'>
-                <img src={imgOnline} alt="" />
+                <img src="/images/img-online.png" alt="" />
                 <p>ONLINE</p>
             </div>
         </div>
         <div className=' container grid grid-cols-3  mx-auto text-center'
             style={{
+              maxWidth:"60vw",
               color: "#FFF",
               textAlign: "center",
               fontFamily: "Bebas Neue",
-              fontSize: "15px",
+              fontSize: "30px",
               fontStyle: "normal",
             }}>
             <div className='item'>
-                <img src={imgTelephone} alt="" />
+                <img src="/images/img-telephone.png" alt="" />
                 <h2>941 074 165</h2>
             </div>
             <div className='item'>
-                <img src={imgMap} alt="" />
+                <img src="/images/img-map.png" alt="" />
                 <p>AV. CONCRETOS</p>
             </div>
             <div className='item'>
-                <img src={imgMap} alt="" />
+                <img src="/images/img-calendar.png" alt="" />
                 <p>LUNES - VIERNES</p>
                 <p>js.picoseg@gmail.com</p>
             </div>
         </div>
 
         
-
-        <div className={styles.formulario}>
+      <div className={styles.rest}>
+        <div  className={styles.formulario}>
           <div className={styles.titulo}>
             <Logo scale={2} />
             <h3>SOLICITUD DE COTIZACIÓN </h3>
+            <br/>
           </div>
           
-          <p>Puede hacer usos de los distintos medios de contacto que ponemos a su disposición. Las consultas recibidas a travez del
+          <p>Puede hacer usos de los distintos medios de contacto que ponemos a su disposición. Las consultas recibidas a traves del
 formulario de contacto son respondidos dentro de los minutos.</p>
           <br></br>
-          <form className={styles.form}>
+
+          <form className={styles.form} 
+          action='https://formspree.io/f/mknlywgr'
+          method='POST'  onSubmit={handleSubmit}>
 
             {/* nombre */}
-            <label htmlfor="nombre" style={{display:"block"}}>
-              Nombre
-            </label>
-            <input type="text"/>
+            
+            <input type='text'name="name" id='name' placeholder="Nombre" className={styles.input} />
 
             {/* correo */}
-            <label htmlfor="correo" style={{display:"block"}}>
-              Correo
-            </label>
-            <input type="email"/>
+            
+            <input type="email" name='email' id='email' placeholder="Correo" className={styles.input}/>
 
             {/* telefono */}
-            <label htmlfor="phone" style={{display:"block"}}>
-              Telefono
-            </label>
-            <input type="number"/>
+            
+            <input type="phone" name='phone' id='phone' placeholder="Telefono" className={styles.input}/>
 
             {/* consulta */}
-            <label htmlfor="consulta" style={{display:"block"}}>
-              Consulta
-            </label>
-            <input type="text"/>
+            
+            <input type="text" name='message' id='message' placeholder="Consulta" className={`${styles.input} ${styles.textarea}`}/>
+            <button type="submit"   className={styles.button}>Submit</button>
 
+            <p className={styles.alert}>{message}</p>
 
           </form>
         </div>
@@ -130,15 +152,17 @@ formulario de contacto son respondidos dentro de los minutos.</p>
                 />
                 <Marker position={DEFAULT_CENTER}>
                   <Popup>
-                    PICOSEG <br />
+                    A pretty CSS3 popup. <br /> Easily customizable.
                   </Popup>
                 </Marker>
               </>
             )}
           </Map>
+        
         </div>
 
 
+      </div>
     </div>
     </div>
     );
