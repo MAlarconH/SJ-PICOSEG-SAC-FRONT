@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import styles from './Layout.module.css';
 import Navigation from '../components/navigation';
 import { useRouter } from 'next/router';
+import Footer from '@/components/Footer/Footer';
 
 /* const Layout =({
     children,
@@ -39,6 +40,7 @@ export const GeneralLayout = ({ children }) => {
             
         <Navigation navigateTo={navigateTo}/>
         {children}
+        <Footer></Footer>
       </div>
     );
   };

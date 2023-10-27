@@ -1,4 +1,2986 @@
 body {
     min-width: 330px;
 }
+
+.concreti-inicio {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .concreti-inicio .div {
+    background-color: #ffffff;
+    height: 8627px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor {
+    height: 7759px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .overlap {
+    height: 900px;
+    left: 0;
+    position: absolute;
+    top: 276px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .section {
+    height: 900px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .overlap-group {
+    height: 900px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .img {
+    flex: 1;
+    flex-grow: 1;
+    height: 900px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-2 {
+    background-color: #000000;
+    height: 900px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget {
+    height: 385px;
+    left: 390px;
+    position: absolute;
+    top: 164px;
+    width: 868px;
+  }
+  
+  .concreti-inicio .overlap-group-2 {
+    height: 162px;
+    left: 16px;
+    position: absolute;
+    top: 64px;
+    width: 836px;
+  }
+  
+  .concreti-inicio .heading-CONCRETOS-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    padding: 0px 327.98px 1.59px 0px;
+    position: absolute;
+    top: 0;
+    width: 836px;
+  }
+  
+  .concreti-inicio .heading-CONCRETOS {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 92px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 119.6px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .somos-una-empresa-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    padding: 0px 209.98px 1.19px 0px;
+    position: absolute;
+    top: 113px;
+    width: 836px;
+  }
+  
+  .concreti-inicio .somos-una-empresa {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: -204px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .p-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 16px;
+    padding: 0px 0px 15.39px;
+    position: absolute;
+    top: 241px;
+    width: 836px;
+  }
+  
+  .concreti-inicio .p {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 5.98px 1px 0px;
+    position: relative;
+    width: 835.98px;
+  }
+  
+  .concreti-inicio .link-wrapper {
+    align-items: flex-start;
+    display: flex;
+    margin-right: -5.98px;
+    padding: 0px 422.21px 0px 0px;
+    position: relative;
+    width: 835.98px;
+  }
+  
+  .concreti-inicio .link {
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 15px 30px 14.5px 29px;
+    position: relative;
+  }
+  
+  .concreti-inicio .span-elementor {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 14px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 0.64px 0px 0px;
+    position: relative;
+  }
+  
+  .concreti-inicio .text-wrapper {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .symbol-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 3px 0.13px 4.5px 0px;
+    position: relative;
+  }
+  
+  .concreti-inicio .symbol {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .section-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    left: 390px;
+    padding: 10px;
+    position: absolute;
+    top: 719px;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .heading {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 41.31px 0px 40.69px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .text-wrapper-2 {
+    color: #111111;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 59px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 72px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-3 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 123.69px 15.39px 125.31px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .text-wrapper-3 {
+    color: #7a7a7a;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .section-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 392px;
+    left: 390px;
+    padding: 0px 10px 10px;
+    position: absolute;
+    top: 1196px;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .section-3 {
+    align-items: flex-start;
+    display: flex;
+    height: 379px;
+    margin-right: -20px;
+    max-width: 1140px;
+    padding: 0px 2.22px 0px 0px;
+    position: relative;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .div-elementor-column {
+    align-items: flex-start;
+    display: flex;
+    min-height: 1px;
+    padding: 15px 0px 15px 15px;
+    position: relative;
+    width: 336px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-2 {
+    background-color: #002e5b;
+    border-color: #0976f2;
+    border-radius: 497px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    box-shadow: 0px 0px 10px 3px #00000033;
+    flex: 1;
+    flex-grow: 1;
+    height: 321px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-image-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 33px;
+    padding: 7px 0px 20px;
+    position: absolute;
+    top: 173px;
+    width: 257px;
+  }
+  
+  .concreti-inicio .div-elementor-image {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14.99px;
+    margin-right: -9px;
+    padding: 0px 0px 0.01px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .p-elementor-image {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 25.72px 1px 24.25px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .heading-2 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    left: 28px;
+    padding: 0px 10.99px 0.19px 10.98px;
+    position: absolute;
+    top: 109px;
+    width: 266px;
+  }
+  
+  .concreti-inicio .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    line-height: 57.6px;
+    margin-left: -11px;
+    margin-right: -11px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 266px;
+  }
+  
+  .concreti-inicio .div-elementor-button {
+    align-items: flex-start;
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    left: 32px;
+    padding: 0px 71.51px 0px 71.52px;
+    position: absolute;
+    top: 249px;
+    width: 257px;
+  }
+  
+  .concreti-inicio .link-2 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-bottom: -0.5px;
+    margin-left: -4.48px;
+    margin-right: -4.48px;
+    padding: 15px 29.94px 14.5px 30px;
+    position: relative;
+  }
+  
+  .concreti-inicio .text-wrapper-6 {
+    color: #002e5b;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-widget-wrapper {
+    align-items: flex-end;
+    display: flex;
+    height: 73px;
+    justify-content: center;
+    left: 32px;
+    padding: 0px 105px;
+    position: absolute;
+    top: 23px;
+    width: 257px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-3 {
+    align-items: center;
+    background-color: #ffffff01;
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 300px;
+    box-shadow: 0px 0px 5px #00000033;
+    display: flex;
+    height: 53px;
+    justify-content: center;
+    margin-left: -3px;
+    margin-right: -3px;
+    padding: 34px 18.97px 36px 19px;
+    position: relative;
+    width: 53px;
+  }
+  
+  .concreti-inicio .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: -13.5px;
+    margin-left: -1.48px;
+    margin-right: -1.48px;
+    margin-top: -19.5px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-icon-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    height: 355px;
+    justify-content: center;
+    padding: 228.34px 13px 235.35px;
+    position: relative;
+    width: 56px;
+  }
+  
+  .concreti-inicio .div-elementor-icon {
+    align-items: flex-start;
+    background-color: #002e5b;
+    border-radius: 300px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-bottom: -69.35px;
+    margin-top: -69.35px;
+    padding: 7.5px 11.75px 7.5px 10.25px;
+    position: relative;
+  }
+  
+  .concreti-inicio .symbol-2 {
+    color: #f3f3f3;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-column-2 {
+    align-items: flex-start;
+    display: flex;
+    min-height: 1px;
+    padding: 15px 0px 14.99px 15px;
+    position: relative;
+    width: 336px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-4 {
+    align-items: flex-start;
+    background-color: #002e5b;
+    border-color: #0976f2;
+    border-radius: 500px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    box-shadow: 0px 0px 10px 3px #00000033;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 321px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 54px 32px 44.01px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-4 {
+    align-items: flex-end;
+    display: flex;
+    height: 68px;
+    justify-content: center;
+    margin-right: -9px;
+    margin-top: -28.26px;
+    padding: 0px 90px 1px;
+    position: relative;
+    width: 266px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-5 {
+    align-items: center;
+    background-color: #ffffff01;
+    border: 3px solid;
+    border-color: #ffffff;
+    border-radius: 300px;
+    box-shadow: 0px 0px 5px #00000033;
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    padding: 34px 18.97px 36px 19px;
+    position: relative;
+    width: 53px;
+  }
+  
+  .concreti-inicio .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: -14px;
+    margin-left: -1.48px;
+    margin-right: -1.48px;
+    margin-top: -20px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-5 {
+    align-items: flex-start;
+    display: flex;
+    height: 159px;
+    margin-right: -9px;
+    padding: 7px 0px 20px;
+    position: relative;
+    width: 266px;
+  }
+  
+  .concreti-inicio .div-elementor-image-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14.99px;
+    padding: 0px 0px 0.01px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .heading-3 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 10.99px 0.19px 10.98px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    line-height: 57.6px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 264px;
+  }
+  
+  .concreti-inicio .elige-el-concreto-y-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 27.52px 1px 26.45px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .div-elementor-button-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-bottom: -28.26px;
+    margin-right: -8.97px;
+    padding: 0px 71.51px 0px 71.52px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .link-3 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 29.94px 14.5px 30px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-widget-6 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    height: 351px;
+    justify-content: center;
+    padding: 228.34px 11.89px 235.35px 11.89px;
+    position: relative;
+    width: 54px;
+  }
+  
+  .concreti-inicio .div-elementor-icon-2 {
+    align-items: flex-start;
+    background-color: #002e5b;
+    border-radius: 300px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-bottom: -71.35px;
+    margin-top: -71.35px;
+    padding: 7.5px 11.75px 7.5px 10.25px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-widget-7 {
+    align-items: flex-start;
+    background-color: #002e5b;
+    border-color: #0976f2;
+    border-radius: 500px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    box-shadow: 0px 0px 10px 3px #00000033;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 321px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 42px 32px 32.01px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-6 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-right: -8.97px;
+    margin-top: -15.35px;
+    padding: 0px 90px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-8 {
+    align-items: center;
+    background-color: #ffffff01;
+    border: 3px solid;
+    border-color: #fdfdfd;
+    border-radius: 300px;
+    box-shadow: 0px 0px 5px #00000033;
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    padding: 34px 18.97px 36px 19px;
+    position: relative;
+    width: 52px;
+  }
+  
+  .concreti-inicio .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: -14px;
+    margin-left: -1.99px;
+    margin-right: -1.99px;
+    margin-top: -20px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-7 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: -8.97px;
+    padding: 7px 0px 20px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .heading-4 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 39.5px 0.19px 39.47px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    line-height: 57.6px;
+    margin-left: -37.5px;
+    margin-right: -37.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 262px;
+  }
+  
+  .concreti-inicio .finaliza-tu-pedido-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 1.44px 1px 0.53px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .div-elementor-button-3 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    margin-bottom: -15.35px;
+    margin-right: -8.97px;
+    padding: 0px 71.51px 0px 71.52px;
+    position: relative;
+    width: 265.97px;
+  }
+  
+  .concreti-inicio .link-4 {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 29.94px 14.5px 30px;
+    position: relative;
+  }
+  
+  .concreti-inicio .section-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 680px;
+    max-width: 1140px;
+    position: absolute;
+    top: 1639px;
+    width: 561px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-9 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    justify-content: center;
+    margin-right: -9px;
+    padding: 10px 202.89px 30px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .link-5 {
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 29.22px 14.5px 30px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-widget-10 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    justify-content: center;
+    margin-right: -9px;
+    padding: 10px 154.54px 30px 154.55px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .span-elementor-wrapper {
+    align-items: flex-start;
+    background-color: #61ce70;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 15px 30px 14.5px 29px;
+    position: relative;
+  }
+  
+  .concreti-inicio .span-elementor-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 14.9px;
+    justify-content: center;
+    padding: 0px 0.01px 0px 0px;
+    position: relative;
+  }
+  
+  .concreti-inicio .span-elementor-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .concreti-inicio .span-elementor-4 {
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .concreti-inicio .section-5 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 96px 28px 96px 0px;
+    position: absolute;
+    top: 1885px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-8 {
+    align-items: flex-start;
+    display: flex;
+    max-width: 1140px;
+    position: relative;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .div-elementor-column-3 {
+    align-items: flex-start;
+    display: flex;
+    min-height: 1px;
+    padding: 15px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-11 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 18px;
+    justify-content: center;
+    padding: 124.58px 10px 124.59px;
+    position: relative;
+  }
+  
+  .concreti-inicio .section-margin {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 520px;
+  }
+  
+  .concreti-inicio .section-6 {
+    align-items: flex-start;
+    display: flex;
+    max-width: 1140px;
+    position: relative;
+    width: 520px;
+  }
+  
+  .concreti-inicio .img-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    min-height: 1px;
+    padding: 15px;
+    position: relative;
+    width: 260px;
+  }
+  
+  .concreti-inicio .img-2 {
+    height: 230px;
+    max-width: 230px;
+    position: relative;
+    width: 230px;
+  }
+  
+  .concreti-inicio .element-jpeg-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    min-height: 1px;
+    padding: 15px 15px 15.5px;
+    position: relative;
+    width: 260px;
+  }
+  
+  .concreti-inicio .element-jpeg {
+    height: 202.5px;
+    max-width: 230px;
+    position: relative;
+    width: 230px;
+  }
+  
+  .concreti-inicio .element-jpeg-2 {
+    height: 203px;
+    max-width: 230px;
+    position: relative;
+    width: 230px;
+  }
+  
+  .concreti-inicio .div-elementor-column-4 {
+    align-items: flex-start;
+    display: flex;
+    min-height: 1px;
+    padding: 60px 66px 66.01px;
+    position: relative;
+    width: 546px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-12 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0px 10px 9.99px;
+    position: relative;
+  }
+  
+  .concreti-inicio .heading-nuestra-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: -24px;
+    padding: 0px 235px 21px 0px;
+    position: relative;
+    width: 418px;
+  }
+  
+  .concreti-inicio .heading-nuestra {
+    color: #ffffff;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: -1px;
+    position: relative;
+    text-shadow: 0px 0px 10px #0000004c;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .heading-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: -24px;
+    padding: 0px 0px 20px;
+    position: relative;
+    width: 418px;
+  }
+  
+  .concreti-inicio .concretos-x-s-a-c-wrapper {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 39px 0px 0px;
+    position: relative;
+    width: 418px;
+  }
+  
+  .concreti-inicio .concretos-x-s-a-c {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 57px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 72px;
+    margin-top: -1px;
+    position: relative;
+    text-shadow: 0px 0px 10px #0000004c;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .span-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: -24px;
+    padding: 2px 0px 37.39px;
+    position: relative;
+    width: 418px;
+  }
+  
+  .concreti-inicio .span {
+    height: 213px;
+    margin-right: -58px;
+    position: relative;
+    width: 476px;
+  }
+  
+  .concreti-inicio .es-una-empresa {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 216px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 13px;
+    width: 436px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-13 {
+    align-items: flex-start;
+    background-color: #002e5b;
+    border-color: #111111;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex: 0 0 auto;
+    margin-right: -48px;
+    padding: 15px 0px 19.39px 18px;
+    position: relative;
+    width: 442px;
+  }
+  
+  .concreti-inicio .overlap-group-wrapper {
+    height: 96px;
+    position: relative;
+    width: 400px;
+  }
+  
+  .concreti-inicio .overlap-group-3 {
+    height: 96px;
+    position: relative;
+    top: -2px;
+    width: 389px;
+  }
+  
+  .concreti-inicio .nuestro-compromiso {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 72px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .concreti-inicio .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .concreti-inicio .text-wrapper-13 {
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .concreti-inicio .strong {
+    height: 43px;
+    left: 0;
+    position: absolute;
+    top: 52px;
+    width: 389px;
+  }
+  
+  .concreti-inicio .text-wrapper-14 {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    left: 97px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: -4px;
+    white-space: nowrap;
+  }
+  
+  .concreti-inicio .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+  }
+  
+  .concreti-inicio .text-wrapper-16 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 105px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 72px;
+    white-space: nowrap;
+  }
+  
+  .concreti-inicio .overlap-2 {
+    height: 1633px;
+    left: 0;
+    position: absolute;
+    top: 2883px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .section-7 {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    padding: 96px 390px;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-9 {
+    height: 1279px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-14 {
+    height: 1087.38px;
+    position: relative;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .overlap-3 {
+    height: 174px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .heading-conoce-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 0px 281.28px 20px 281.72px;
+    position: absolute;
+    top: 0;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .heading-conoce {
+    color: #111111;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 72px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-10 {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    padding: 0px 0px 34.39px;
+    position: absolute;
+    top: 91px;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .buscamos-las-mejores-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 0px 42px 1px 43px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .buscamos-las-mejores {
+    color: #7a7a7a;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-11 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    left: 10px;
+    padding: 0px 471.45px 20px 471.44px;
+    position: absolute;
+    top: 184px;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .link-6 {
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 30.11px 14.5px 29px;
+    position: relative;
+  }
+  
+  .concreti-inicio .section-8 {
+    align-items: flex-start;
+    display: flex;
+    left: 10px;
+    max-width: 1140px;
+    position: absolute;
+    top: 257px;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .div-elementor-column-5 {
+    align-items: flex-start;
+    display: flex;
+    min-height: 1px;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    width: 280px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-15 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #7a7a7a;
+    border-radius: 5px;
+    display: flex;
+    padding: 1px;
+    position: relative;
+    width: 250px;
+  }
+  
+  .concreti-inicio .div-elementor-image-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0px 0px 1.53e-5px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .img-3 {
+    height: 248px;
+    max-width: 248px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .concreto-premezclado-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 26.08px 0.39px 26.92px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .text-wrapper-17 {
+    color: #161616;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 19.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-column-6 {
+    align-items: flex-start;
+    display: flex;
+    min-height: 1px;
+    padding: 10px 20px 38.8px 10px;
+    position: relative;
+    width: 280px;
+  }
+  
+  .concreti-inicio .div-elementor-image-4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .concreto-arquitect-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 13.42px 1.59px 12.58px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .concreto-reforzado-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 20.22px 1.59px 20.78px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .concreto-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 6.56px 1.59px 5.44px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .div-2 {
+    color: transparent;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 19.2px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .text-wrapper-18 {
+    color: #161616;
+  }
+  
+  .concreti-inicio .text-wrapper-19 {
+    color: #ffffff;
+  }
+  
+  .concreti-inicio .overlap-group-4 {
+    height: 503px;
+    left: 10px;
+    position: absolute;
+    top: 620px;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .section-9 {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    max-width: 1140px;
+    padding: 0px 32px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .concreto-poroso-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 52.67px 1.59px 51.33px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .concreto-RCC-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 64.56px 1.59px 63.44px;
+    position: relative;
+    width: 248px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-16 {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    justify-content: center;
+    padding: 123px 10px 136.59px;
+    position: relative;
+    width: 528px;
+  }
+  
+  .concreti-inicio .link-7 {
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 30px;
+    position: relative;
+  }
+  
+  .concreti-inicio .contacta-con-uno-de-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 13.34px 0px 12.66px;
+    position: relative;
+  }
+  
+  .concreti-inicio .contacta-con-uno-de {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .section-margin-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 30px 0px 0px;
+    position: absolute;
+    top: 288px;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .section-10 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 1140px;
+    position: relative;
+    width: 534px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-17 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    justify-content: center;
+    margin-right: -26px;
+    padding: 10px 197.89px 30px;
+    position: relative;
+    width: 560px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-18 {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-right: -26px;
+    padding: 10px 149.54px 30px 149.55px;
+    position: relative;
+    width: 560px;
+  }
+  
+  .concreti-inicio .section-11 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    left: 0;
+    padding: 100px 390px 100px;
+    position: absolute;
+    top: 1279px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-12 {
+    background-color: #111111b5;
+    height: 354px;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-19 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 0px 228px;
+    position: relative;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .heading-5 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 152.61px 0px 151.39px;
+    position: relative;
+    width: 684px;
+  }
+  
+  .concreti-inicio .text-wrapper-20 {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 72px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-13 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0px 0px 14.39px;
+    position: relative;
+    width: 684px;
+  }
+  
+  .concreti-inicio .tenemos-un-equipo-de-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 0px 28.83px 1px 30.17px;
+    position: relative;
+    width: 684px;
+  }
+  
+  .concreti-inicio .section-section {
+    align-items: flex-start;
+    display: flex;
+    height: 555px;
+    left: 160px;
+    padding: 0px 0.05px 0px 0px;
+    position: absolute;
+    top: 4644px;
+    width: 1500px;
+  }
+  
+  .concreti-inicio .div-elementor-column-7 {
+    align-items: flex-start;
+    display: flex;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-20 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 490px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    padding: 148px 40px 40px;
+    position: relative;
+    width: 490px;
+  }
+  
+  .concreti-inicio .div-elementor-14 {
+    background-color: #11111166;
+    height: 490px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 490px;
+  }
+  
+  .concreti-inicio .div-elementor-15 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0px 0px 9.41px;
+    position: relative;
+    width: 279.98px;
+  }
+  
+  .concreti-inicio .servicio-de-bomba-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 0px 65.42px 1.59px 65.56px;
+    position: relative;
+    width: 279.98px;
+  }
+  
+  .concreti-inicio .text-wrapper-21 {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 40.8px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-button-4 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 78.52px 0px 78.52px;
+    position: relative;
+    width: 279.98px;
+  }
+  
+  .concreti-inicio .link-8 {
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 29.94px 14.5px 30px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-widget-21 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 490px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    padding: 148px 40px 40px;
+    position: relative;
+    width: 490px;
+  }
+  
+  .concreti-inicio .SERVICIO-BOMBA-wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: 0px 55.82px 1.59px 54.16px;
+    position: relative;
+    width: 279.98px;
+  }
+  
+  .concreti-inicio .div-elementor-column-8 {
+    align-items: flex-start;
+    display: flex;
+    height: 500px;
+    margin-right: -0.05px;
+    padding: 10px;
+    position: relative;
+    width: 500px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-22 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 490px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    padding: 149px 40px 40px;
+    position: relative;
+    width: 490px;
+  }
+  
+  .concreti-inicio .div-elementor-16 {
+    background-color: #1111117d;
+    height: 490px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 490px;
+  }
+  
+  .concreti-inicio .heading-SERVICO-DE-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 21.56px 51px 20.42px;
+    position: relative;
+    width: 279.98px;
+  }
+  
+  .concreti-inicio .heading-SERVICO-DE {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 40.8px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-button-5 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 78.53px 0px 78.51px;
+    position: relative;
+    width: 279.98px;
+  }
+  
+  .concreti-inicio .section-12 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 626px;
+    max-width: 1140px;
+    position: absolute;
+    top: 5266px;
+    width: 570px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-23 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    justify-content: center;
+    padding: 10px 216.37px 30px 216.38px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .link-9 {
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 15px 30.25px 14.5px 29px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-elementor-widget-24 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    justify-content: center;
+    padding: 10px 154.54px 30px 154.55px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .section-13 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    left: 0;
+    padding: 100px 390px 100px;
+    position: absolute;
+    top: 5519px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-17 {
+    background-color: #111111b5;
+    height: 378px;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .heading-6 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 176.22px 0px 175.78px;
+    position: relative;
+    width: 684px;
+  }
+  
+  .concreti-inicio .text-wrapper-22 {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 59px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 72px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-18 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0px 0px 15.39px;
+    position: relative;
+    width: 684px;
+  }
+  
+  .concreti-inicio .span-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px 8px 0px 0px;
+    position: relative;
+  }
+  
+  .concreti-inicio .text-wrapper-23 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .text-wrapper-24 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .section-14 {
+    height: 993px;
+    left: 0;
+    position: absolute;
+    top: 5898px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-19 {
+    height: 993px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .section-15 {
+    align-items: flex-start;
+    background-image: url();
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    left: 0;
+    padding: 16px 651.02px 32px 390px;
+    position: absolute;
+    top: 6891px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-20 {
+    height: 651px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-25 {
+    height: 296px;
+    margin-right: -264.02px;
+    position: relative;
+    width: 1143px;
+  }
+  
+  .concreti-inicio .overlap-group-5 {
+    height: 159px;
+    left: -2px;
+    position: absolute;
+    top: 16px;
+    width: 1129px;
+  }
+  
+  .concreti-inicio .div-elementor-21 {
+    align-items: flex-start;
+    display: inline-flex;
+    left: 0;
+    max-width: 878.98px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .concreti-inicio .div-elementor-widget-26 {
+    border-color: #ffffff;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    height: 22px;
+    position: relative;
+    width: 73px;
+  }
+  
+  .concreti-inicio .heading-SOMOS-TU-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 18px;
+    padding: 0px 87.98px 3.19px 0px;
+    position: absolute;
+    top: 6px;
+    width: 1111px;
+  }
+  
+  .concreti-inicio .heading-SOMOS-TU {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 63px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 83.2px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-22 {
+    align-items: flex-start;
+    display: flex;
+    left: 18px;
+    padding: 0px 0px 17.39px;
+    position: absolute;
+    top: 92px;
+    width: 1111px;
+  }
+  
+  .concreti-inicio .estamos-listo-para-wrapper {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 60.98px 1px 0px;
+    position: relative;
+    width: 846.98px;
+  }
+  
+  .concreti-inicio .estamos-listo-para {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: -61px;
+    margin-top: -1px;
+    position: relative;
+    width: 847px;
+  }
+  
+  .concreti-inicio .div-elementor-23 {
+    align-items: flex-start;
+    display: flex;
+    left: 16px;
+    padding: 0px 652.6px 3px 0px;
+    position: absolute;
+    top: 174px;
+    width: 1111px;
+  }
+  
+  .concreti-inicio .link-10 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 11px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 15px 30px 14.5px;
+    position: relative;
+  }
+  
+  .concreti-inicio .span-elementor-5 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 13.25px;
+    justify-content: center;
+    padding: 0px 4.77e-6px 0px 0px;
+    position: relative;
+  }
+  
+  .concreti-inicio .cont-ctanos {
+    color: #111111;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22.5px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .symbol-3 {
+    color: #111111;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .frame {
+    height: 306.92px;
+    margin-bottom: -0.92px;
+    margin-left: -4px;
+    margin-right: -268.02px;
+    position: relative;
+    width: 1151px;
+  }
+  
+  .concreti-inicio .group {
+    height: 54px;
+    left: 219px;
+    position: absolute;
+    top: 207px;
+    width: 1482px;
+  }
+  
+  .concreti-inicio .navbar {
+    align-items: center;
+    display: flex;
+    gap: 245px;
+    justify-content: center;
+    position: relative;
+    width: 1482px;
+  }
+  
+  .concreti-inicio .heading-7 {
+    color: #101685;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .diseno-sin-titulo {
+    height: 142px;
+    left: 813px;
+    object-fit: cover;
+    position: absolute;
+    top: -32px;
+    width: 294px;
+  }
+  
+  .concreti-inicio .section-16 {
+    align-items: flex-start;
+    background-color: #101685;
+    display: flex;
+    height: 524px;
+    left: 0;
+    position: absolute;
+    top: 7541px;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-27 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .section-17 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 360px 48px;
+    position: relative;
+    width: 1860px;
+  }
+  
+  .concreti-inicio .div-elementor-24 {
+    align-items: flex-start;
+    display: flex;
+    max-width: 1140px;
+    padding: 0px 0.61px 0px 0px;
+    position: relative;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-28 {
+    align-items: flex-start;
+    border-color: #ffffff;
+    border-right-style: solid;
+    border-right-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 0px 31px 44.03px 0px;
+    position: relative;
+    width: 341.59px;
+  }
+  
+  .concreti-inicio .diseno-sin-titulo-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 91.63px;
+    position: relative;
+    width: 310.59px;
+  }
+  
+  .concreti-inicio .diseno-sin-titulo-2 {
+    height: 111px;
+    margin-left: -42.84px;
+    margin-right: -42.83px;
+    object-fit: cover;
+    position: relative;
+    width: 213px;
+  }
+  
+  .concreti-inicio .div-elementor-25 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 0px 0px 14.39px;
+    position: relative;
+    width: 310.59px;
+  }
+  
+  .concreti-inicio .p-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 2.59px 1px 0px;
+    position: relative;
+    width: 310.59px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-29 {
+    border-color: #ffffff;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: 277.98px;
+    position: relative;
+    width: 287.39px;
+  }
+  
+  .concreti-inicio .heading-men-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 30px;
+    padding: 0px 211.39px 15.19px 0px;
+    position: absolute;
+    top: -1px;
+    width: 256px;
+  }
+  
+  .concreti-inicio .text-wrapper-25 {
+    color: #c7b0e2;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .nav-list-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 13px;
+    position: absolute;
+    top: 37px;
+    width: 256px;
+  }
+  
+  .concreti-inicio .nav-list {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: -17px;
+    padding: 7px 101.39px 9px 20px;
+    position: relative;
+    width: 273.39px;
+  }
+  
+  .concreti-inicio .item-link-SERVICIO {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .text-wrapper-26 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .item-link-inicio {
+    color: #d4d4d4;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-widget-30 {
+    border-color: #ffffff;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: 277.98px;
+    position: relative;
+    width: 274.88px;
+  }
+  
+  .concreti-inicio .heading-legal-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 30px;
+    padding: 0px 195.88px 15.19px 0px;
+    position: absolute;
+    top: -1px;
+    width: 244px;
+  }
+  
+  .concreti-inicio .list-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 30px;
+    position: absolute;
+    top: 41px;
+    width: 244px;
+  }
+  
+  .concreti-inicio .list {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    position: relative;
+    width: 243.88px;
+  }
+  
+  .concreti-inicio .item-link {
+    height: 24px;
+    position: relative;
+    width: 243.88px;
+  }
+  
+  .concreti-inicio .span-elementor-icon {
+    align-items: flex-start;
+    display: inline-flex;
+    left: 18px;
+    padding: 0px 0px 1px 5px;
+    position: absolute;
+    top: -1px;
+  }
+  
+  .concreti-inicio .i-fas {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    padding: 0px 4.5px 0px 0px;
+    position: absolute;
+    top: 5px;
+    width: 18px;
+  }
+  
+  .concreti-inicio .symbol-4 {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-widget-31 {
+    height: 277.98px;
+    position: relative;
+    width: 235.53px;
+  }
+  
+  .concreti-inicio .heading-encu-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 30px;
+    padding: 0px 80.53px 35.19px 0px;
+    position: absolute;
+    top: -1px;
+    width: 206px;
+  }
+  
+  .concreti-inicio .overlap-group-6 {
+    height: 119px;
+    left: 30px;
+    position: absolute;
+    top: 54px;
+    width: 206px;
+  }
+  
+  .concreti-inicio .div-elementor-26 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 8px;
+    left: 0;
+    max-width: 235.53px;
+    padding: 0px 0px 30px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .concreti-inicio .link-11 {
+    align-items: center;
+    background-color: #3b5998;
+    border-radius: 12px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 6px;
+    position: relative;
+  }
+  
+  .concreti-inicio .symbol-5 {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .link-12 {
+    align-items: center;
+    background-color: #25d366;
+    border-radius: 12px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 6px 6.25px 6px 6.75px;
+    position: relative;
+  }
+  
+  .concreti-inicio .link-13 {
+    align-items: center;
+    background-color: #e1306c;
+    border-radius: 12px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 6px 6.25px 6px 6.75px;
+    position: relative;
+  }
+  
+  .concreti-inicio .heading-boletin-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    padding: 0px 45.53px 36.8px 0px;
+    position: absolute;
+    top: 53px;
+    width: 206px;
+  }
+  
+  .concreti-inicio .heading-boletin {
+    color: #ffffff;
+    font-family: "Bebas Neue-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .form-wrapper {
+    align-items: flex-start;
+    display: flex;
+    left: 25px;
+    position: absolute;
+    top: 173px;
+    width: 206px;
+  }
+  
+  .concreti-inicio .form {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: -10px;
+    padding: 0px 0px 10px;
+    position: relative;
+    width: 215.53px;
+  }
+  
+  .concreti-inicio .div-elementor-field {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    min-height: 1px;
+    padding: 0px 5px;
+    position: relative;
+    width: 215.53px;
+  }
+  
+  .concreti-inicio .input {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #69727d;
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    max-width: 215.53px;
+    min-height: 47px;
+    padding: 16.82px 17px 17.18px;
+    position: relative;
+  }
+  
+  .concreti-inicio .div-placeholder {
+    align-items: flex-start;
+    display: flex;
+    opacity: 0.6;
+    padding: 0px 66.53px 0px 0px;
+    position: relative;
+    width: 171.53px;
+  }
+  
+  .concreti-inicio .text-wrapper-27 {
+    color: #1f2124;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .button-wrapper {
+    align-items: flex-end;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    min-height: 1px;
+    padding: 0px 5px;
+    position: relative;
+    width: 215.53px;
+  }
+  
+  .concreti-inicio .button {
+    all: unset;
+    align-items: flex-start;
+    background-color: #0976f2;
+    border-radius: 11px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    min-height: 47px;
+    padding: 15px 64.72px 15px 64.81px;
+    position: relative;
+  }
+  
+  .concreti-inicio .suscribirme {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .section-18 {
+    align-items: flex-start;
+    border-color: #7a7a7a;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex: 0 0 auto;
+    padding: 1px 360px 0px;
+    position: relative;
+    width: 1860px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-32 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    position: relative;
+    width: 1140px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-33 {
+    height: 24px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .element-concretos-JMR {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 291px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: -2px;
+    white-space: nowrap;
+  }
+  
+  .concreti-inicio .element-svg {
+    height: 16px;
+    left: 589px;
+    position: absolute;
+    top: 3px;
+    width: 16px;
+  }
+  
+  .concreti-inicio .and-developed-by {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    left: 605px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: -2px;
+    white-space: nowrap;
+  }
+  
+  .concreti-inicio .link-strong {
+    align-items: flex-start;
+    display: inline-flex;
+    justify-content: center;
+    left: 735px;
+    padding: 0px 0.46px 0px 2.98px;
+    position: absolute;
+    top: -1px;
+  }
+  
+  .concreti-inicio .text-wrapper-28 {
+    color: #d4d4d4;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-27 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 97.53px 0px 96.47px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .concreti-inicio .text-wrapper-29 {
+    color: #ffffffa8;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .section-19 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000080;
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-34 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .section-20 {
+    align-items: flex-start;
+    background-color: #101685;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0px 390px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-35 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 0px;
+    padding: 11.5px 10px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .div-elementor-widget-36 {
+    height: 21px;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+  }
+  
+  .concreti-inicio .list-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15.55px 0px;
+    left: -8px;
+    padding: 0px 116.45px 0px 8px;
+    position: relative;
+    width: 566px;
+  }
+  
+  .concreti-inicio .item {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .concreti-inicio .i-fas-2 {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 4.5px 0px 0px;
+    position: relative;
+    width: 22.5px;
+    z-index: 1;
+  }
+  
+  .concreti-inicio .symbol-6 {
+    color: #ffffff;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .span-elementor-icon-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    padding: 0px 0px 0px 5px;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .concreti-inicio .text-wrapper-30 {
+    color: #ffffff;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .concreti-inicio .div-elementor-widget-37 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 0px;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 472px;
+    position: relative;
+    width: 570px;
+  }
+  
+  .concreti-inicio .link-14 {
+    align-items: center;
+    background-color: #3b5998;
+    border-radius: 55px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 6px;
+    position: relative;
+  }
+  
+  .concreti-inicio .link-15 {
+    align-items: center;
+    background-color: #25d366;
+    border-radius: 55px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 6px 6.25px 6px 6.75px;
+    position: relative;
+  }
+  
+  .concreti-inicio .link-16 {
+    align-items: center;
+    background-color: #e1306c;
+    border-radius: 55px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 6px 6.25px 6px 6.75px;
+    position: relative;
+  }
   

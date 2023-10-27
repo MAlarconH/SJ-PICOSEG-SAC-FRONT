@@ -55,42 +55,53 @@ const Footer = () => {
             En PICOSEG, estamos comprometidos con la excelencia en la industria de la construcción. Como empresa líder en Lima, Perú, nos enorgullece ofrecer servicios de bombeo de concreto premezclado y la venta de concreto de diseño personalizado para una amplia gama de proyectos y necesidades.
             </p>
           </div>
-          {[1, 2, 3].map((item) => (
-            <Section key={item} title="Menu">
+          
+            <Section title="Menú">
               <ul>
-                <SectionItem>Hi</SectionItem>
-                <SectionItem>Hi</SectionItem>
-                <SectionItem>Hi</SectionItem>
-                <SectionItem>Hi</SectionItem>
+                <SectionItem>Servicio de bomba</SectionItem>
+                <SectionItem>Concretos</SectionItem>
+                <SectionItem>Nosotros</SectionItem>
+                <SectionItem>Contacto</SectionItem>
               </ul>
             </Section>
-          ))}
+            <Section title="Legal">
+                <ul>
+                  <SectionItem>-</SectionItem>
+                  <SectionItem>-</SectionItem>
+                  <SectionItem>-</SectionItem>
+                  <SectionItem>-</SectionItem>
+                </ul>
+              </Section>
+              <Section  title="Encuéntranos">
+              <ul>
+                <SectionItem>Servicio de bomba</SectionItem>
+                <SectionItem>Concretos</SectionItem>
+                <SectionItem>Nosotros</SectionItem>
+                <SectionItem>Contacto</SectionItem>
+              </ul>
+            </Section>
         </div>
       </div>
 
       <div className={styles.footerDow}>
-        <h1
-          style={{
-            ...commonTextStyle,
-            textAlign: "center",
-          }}
-        >
-          alao asds
-        </h1>
-        <p
-          style={{
-            ...commonTextStyle,
-            color: "rgba(255, 255, 255, 0.66)",
-            fontSize: "12px",
-            lineHeight: "18px",
-            textAlign: "center",
-          }}
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-          obcaecati cupiditate! Eaque quaerat minima quibusdam non veritatis
-          laboriosam, inventore sed, tenetur ipsam voluptas, impedit veniam
-          libero. Id aut recusandae rerum?
-        </p>
+      <div className={styles.section18}>
+                <div className={styles.div32}>
+                  <div className={styles.div33}>
+                    <p className="elementconcretos"> 2023 Concretos JMR is Proudly Powered</p>
+                    <img className="elementsvg" alt="Element svg" src="26a1-svg.svg" />
+                    <div className="anddeveloped"> and Developed by</div>
+                    <div className="linkstrong">
+                      <div className="textwrapper28">Marketing Lab</div>
+                    </div>
+                  </div>
+                  <div className="div27">
+                    <p className="textwrapper29">
+                      Reservados todos los derechos. No se permite la reproduccion total o parcial de este sitio web en
+                      cualquier forma o por cualquier medio sin auntorizacion previa y por escrito.
+                    </p>
+                  </div>
+                </div>
+              </div>
       </div>
     </div>
   );
